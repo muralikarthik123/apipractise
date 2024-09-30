@@ -15,9 +15,26 @@ const products =[
     {
         id:3,
         name:'ramesh'
+    },
+    {
+        id:4,
+        name:'fathima'
+    },
+    {
+        id:5,
+        name:'bandi'
+    },
+    {
+        id:6,
+        name:'rajesh'
+    },
+    {
+        id:7,
+        name:'ram'
     }
+
 ]
-app.get('/products',(req,res)=>{
+app.get('/',(req,res)=>{
     res.json(products);
 })
 app.listen(port, () => {
